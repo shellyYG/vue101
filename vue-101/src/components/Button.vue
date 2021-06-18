@@ -2,7 +2,7 @@
     <button 
         @click="onClick()"
         :style="{ background: color}" 
-        class="btn"> Add Task 
+        class="btn"> {{ text }}
     </button>
 </template>
 
@@ -15,7 +15,7 @@ export default {
     },
     methods: {
         onClick() {
-            console.log('clicked');
+            this.$emit('btn-click')
         }
     }
 }

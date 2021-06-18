@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "text": "Go Shopping",
+      "day": "6/13",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "HIhiH",
+      "day": "6/18",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "text": "segtset",
+      "day": "ste",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}
